@@ -4,6 +4,7 @@ from retry.api import retry_call
 from tqdm import tqdm
 from unet_stylegan2 import Trainer, NanException
 from datetime import datetime
+import argparse
 
 def train_from_folder(
     data = './data',
